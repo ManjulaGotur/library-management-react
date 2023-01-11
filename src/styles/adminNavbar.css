@@ -1,0 +1,42 @@
+.adminNav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* margin-right:20px; */
+    /* background: linear-gradient( rgba(0, 0, 0, 0.288),rgb(0, 183, 255),red); */
+   background: linear-gradient(rgba(228, 7, 7, 0.856),rgba(202, 146, 41, 0.938));
+    margin: 0px;
+    padding: 0;
+    
+}
+.logo h1{
+    font-size: 23px;
+    padding-left: 20px;
+    margin-right: 190px;
+}
+.addbook li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 10px;
+}
+.addbook li a {
+    text-decoration: none;
+    color:black;
+}
+.addbook li a:hover{
+    color: darkblue;
+    padding: 4px;
+    /* margin: 10px; */
+    background-color: rgba(29, 143, 19, 0.582);
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.616);
+    border-radius: 3px;
+}
+h1{
+    color: rgb(7, 7, 19);
+    /* margin-left: 30px; */
+    /* text-align: left; */
+    
+
+}

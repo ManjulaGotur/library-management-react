@@ -1,0 +1,31 @@
+.adminLogin1{
+    background-color: rgb(189, 118, 37);
+    text-align: center;
+}
+.form_container{
+    background-color: rgba(201, 55, 128, 0.87);
+    border: 3px solid black;
+    margin-top: 80px;
+    padding: 30px;
+    margin-left: 410px;
+    margin-right: 410px;
+    border-radius: 10px;
+}
+.form_container h1{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.email{
+    padding: 6px;
+    color: black;
+}
+.password{
+    padding: 5px;
+    color: black;
+}
+.btn_btn-primary button:hover{
+ background-color: blueviolet;
+ padding: 15px;
+}

@@ -1,0 +1,7 @@
+.adminHome{
+    font-size: 30px;
+    background: linear-gradient(violet,rgba(116, 46, 167, 0.767),rgba(0, 0, 255, 0.445),grey,rgba(255, 255, 0, 0.719),rgba(255, 166, 0, 0.63),red);
+    margin:200px;
+    margin-top: 120px;
+    border-radius: 9px;
+}

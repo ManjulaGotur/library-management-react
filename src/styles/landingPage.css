@@ -1,0 +1,76 @@
+body{
+    background-image: url("https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/HOW-DO-YOU-DESIGN-A-LIBRARY-MANAGEMENT-SYSTEM-min.png");
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.landingPage{
+/* background-color: white;
+
+margin-top: 180px;
+flex-wrap:wrap;
+height: 250px;
+margin-left: 400px;
+
+width:550px; */
+
+display: flex;
+justify-content: center;
+align-items: center;
+width:40%;
+height: 50vh;
+margin: auto;
+margin-top: 120px;
+background-color: rgba(39, 150, 89, 0.767);
+border: 2px solid black;
+border-radius: 4px;
+
+}
+.selectLoginType h1{
+ font-size: 30px;
+ margin-top: 160px;
+}
+
+
+#img1{
+ margin-bottom: 60px;
+ margin-top: 20px;
+ margin: 20px;
+}
+#img2{
+    margin-bottom: 60px;
+    margin: 20px;
+}
+.MRG{
+    
+    display: inline-block;
+    /* padding: 10px; */
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 160px;
+    
+
+}
+.btn1{
+    
+    margin: 15px;
+}
+.btn2{
+    margin: 15px;
+} 
+.btn1:hover{
+    color: black;
+    background-color: brown;
+    padding: 5px;
+    position: relative;
+
+}
+.btn2:hover{
+    background-color: brown;
+    padding: 5px;
+    position: relative;
+
+}

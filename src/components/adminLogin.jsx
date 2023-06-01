@@ -12,13 +12,15 @@ const AdminLogin = () => {
     let login = (e) => {
         e.preventDefault();
         let data = { email, password }//data from input
+       
         //admin validation
-        if (email == "admin@gmail.com" && password == "1234") {
+        if (email === "manju@gmail.com" && password === "mrg@12") {
             navigate('/admin/')
         }
         else {
             alert("invalid credentials")
         }
+
     }
     return (
         <div className="adminLogin">
@@ -26,19 +28,20 @@ const AdminLogin = () => {
                 <h1>Login as Admin</h1>
 
                 <div className="form_input ">
-                <form onSubmit={login}>
+                    <form onSubmit={login}>
 
-                <div className="email">
-               <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder=" Enter email address" className="form_control my3" />
-               </div>
+                        <div className="email1">
+                            <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} 
+                            placeholder=" Enter email address" className="form_control my3" />
+                        </div>
 
-                <div className="password">
-                <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}
-                placeholder=" Enter password" className="form_control_my3" />
-                </div>
+                        <div className="password">
+                            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}
+                                placeholder=" Enter password" className="form_control_my3" />
+                        </div>
 
-                <button className="btn_btn-primary" onClick={() => login}>Login</button>
-                </form>
+                        <button className="btn5" onClick={() => login}>Login</button>
+                    </form>
 
                 </div>
             </div>

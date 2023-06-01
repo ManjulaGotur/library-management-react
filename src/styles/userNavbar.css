@@ -3,31 +3,31 @@
     justify-content: space-around;
     text-align: center;
    background: linear-gradient(rgba(228, 7, 7, 0.856),rgba(202, 146, 41, 0.938));
-    margin-right: -200px;
+    margin: 0px;
+    padding: 0;
     
 }
 .logo h1{
     font-size: 23px;
-    padding-left: 30px;
-    margin-right: 190px;
+    margin-left: -150px;
 
 }
 .addbook li{
     display: inline-block;
     text-decoration: none;
+    padding: 20px;
+    margin-left: 20px;
     
 
 }
 .addbook li a {
     text-decoration: none;
     color:black;
-    margin-left: -40px;
-    padding: 7px;
 }
 .addbook li a:hover{
 background-color: rgba(0, 0, 255, 0.767);
     border: 2px solid rgba(0, 0, 0, 0.616);
-    border-radius: 5px;
+    border-radius: 7px;
     color: rgba(255, 255, 255, 0.795);
 }
 h1{

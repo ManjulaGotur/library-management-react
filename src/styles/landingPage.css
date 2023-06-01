@@ -1,36 +1,13 @@
 body{
-    background-image: url("https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/HOW-DO-YOU-DESIGN-A-LIBRARY-MANAGEMENT-SYSTEM-min.png");
+    background-image: url("https://aims.pk/wp-content/uploads/2019/02/Library.jpg");
 
     background-size: cover;
-    background-position: center;
     width: 100%;
 }
 
-.landingPage{
-/* background-color: white;
-
-margin-top: 180px;
-flex-wrap:wrap;
-height: 250px;
-margin-left: 400px;
-
-width:550px; */
-
-display: flex;
-justify-content: center;
-align-items: center;
-width:40%;
-height: 50vh;
-margin: auto;
-margin-top: 120px;
-background-color: rgba(39, 150, 89, 0.767);
-border: 2px solid black;
-border-radius: 4px;
-
-}
 .selectLoginType h1{
  font-size: 30px;
- margin-top: 160px;
+ margin-top: 50px;
 }
 
 
@@ -43,34 +20,87 @@ border-radius: 4px;
     margin-bottom: 60px;
     margin: 20px;
 }
-.MRG{
+.MRG1{
     
     display: inline-block;
-    /* padding: 10px; */
-    justify-content: center;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-bottom: 160px;
+    margin: 15px;
+    /* text-decoration: none; */
+    color: black;
     
 
 }
 .btn1{
-    
-    margin: 15px;
+    text-decoration: none;
 }
 .btn2{
     margin: 15px;
+    text-decoration: none;
 } 
 .btn1:hover{
     color: black;
     background-color: brown;
     padding: 5px;
     position: relative;
-
 }
 .btn2:hover{
     background-color: brown;
-    padding: 5px;
-    position: relative;
+    color: black;
 
+    padding: 5px;
+
+} 
+.landingPage{
+    background-color: rgba(255, 235, 205, 0.849);
+    padding: 10px;
+    margin-top: 120px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border: 2px solid black;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    border-radius: 45px;
+    box-shadow: 3px 3px 3px 3px black;
+    padding-left: -50px;
 }
+#img1{
+    
+    margin-bottom: 35px;
+    margin-right: 90px;
+    border: 1px solid orange;
+    border-radius: 60px;
+    padding: 10px;
+
+   }
+    #img2{
+       
+       margin-bottom: 35px;
+    border-radius: 60px;
+    padding: 10px;
+   } 
+   .MRG1{
+    text-decoration: none;
+   }
+   .btn1{
+    margin-right: 90px;
+    margin-top: -30px;
+    border: 2px solid black;
+    text-align: none;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.747);
+    border-radius: 10px;
+    padding: 7px;
+   }
+   .btn1:hover{
+    background-color: orange;
+   }
+   .btn2{
+    border: 2px solid black;
+    text-align: none;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.747);
+    border-radius: 10px;
+    padding: 7px;
+   }
+   .btn2:hover{
+    background-color:green;
+   }

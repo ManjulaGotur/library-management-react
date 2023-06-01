@@ -1,31 +1,54 @@
+ 
 .userLogin1{
-    
-    text-align: center;
-}
-.form_container{
-    background-color: rgba(201, 55, 128, 0.87);
-    border: 3px solid black;
-    margin-top: 80px;
     padding: 30px;
-    margin-left: 410px;
-    margin-right: 410px;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.form_container h1{
-    font-size: 38px;
-    text-align: center;
+
+.userLogin1 .form_container1{ 
+    background-color: #fff;
+    height:350px;
+    padding: 30px 60px; 
+     border-radius: 90px; 
+     margin: auto;
+     box-shadow: 3px 5px 5px 3px black;
+ }
+
+.form_container1 h1{
+     font-family: 'Times New Roman', Times, serif;
+     font-style:italic;
+     font-size: 60px;
+     margin-top: 60px;
+}
+
+.email1 input{
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 70%;
     margin-top: 10px;
+    height: 16px;
+   
+}
+.password input{
+    
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 70%;
+    margin-top: 10px;
+    height: 16px;
+}
+.btn5 {
+    border-radius: 20px;
+    margin: 10px;
+     padding: 16px;
 
 }
-.email{
-    padding: 6px;
-    color: black;
+.btn5:hover{
+   background-color:blue; 
+   color: #fff;
 }
-.password{
-    padding: 5px;
-    color: black;
-}
-.btn_btn-primary button:hover{
- background-color: blueviolet;
- padding: 15px;
-}
+

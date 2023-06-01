@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import {useNavigate,useLocation} from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import ReadBook from "./readBook";
 import '../styles/bookList.css'
 
@@ -18,26 +18,26 @@ const BookList = () => {
             setBooks(data)
         }
         fetchData()
-    },[books])
+    }, [books])
 
     let navigate = useNavigate()
 
-    let read=(id)=>{
-        if (location.pathname == '/admin/book-list'){
-        navigate(`/admin/book-list/${id}`)
-     }else{
-        navigate(`/user/book-list/${id}`)
+    let read = (id) => {
+        if (location.pathname == '/admin/book-list') {
+            navigate(`/admin/book-list/${id}`)
+        } else {
+            navigate(`/user/book-list/${id}`)
+        }
     }
-}
-     
-    let handleDelete=(id,title)=>{
-    //  setBooks(books.filter(x=>x.id!=id))
-     fetch(`http://localhost:4000/books/${id}`,{
-        method:'DELETE'
-     });
-     alert(`${title} wii be deleted permently`)//to delete all books from the server permenently
 
-    //  alert(`${id} has been deleted`)
+    let handleDelete = (id, title) => {
+        //  setBooks(books.filter(x=>x.id!=id))
+        fetch(`http://localhost:4000/books/${id}`, {
+            method: 'DELETE'
+        });
+        alert(`${title} wii be deleted permently`)//to delete all books from the server permenently
+
+        //  alert(`${id} has been deleted`)
     }
     return (
         <div className="bookList">
@@ -52,14 +52,14 @@ const BookList = () => {
                             </div>
 
                             <div className="twinkle">
-                        <h3>{data.title}</h3>
-                        <h6>Authors:{data.authors}</h6>
-                        <h6>Catogery:{data.categories}</h6>
-                        <h6>PageCount:{data.pageCount}</h6>
-                        
-                        <a href=""><button className="btn1"      onClick={()=>read(data.id)}>Read More</button></a>
-                        {location.pathname == '/admin/book-list' && <button  className="btn2" onClick={()=>handleDelete(data.id,data.title)}>Delete</button>}
-                        </div>
+                                <h3>{data.title}</h3>
+                                <h6>Authors:{data.authors}</h6>
+                                <h6>Catogery:{data.categories}</h6>
+                                <h6>PageCount:{data.pageCount}</h6>
+
+                                <a href=""><button className="btn1" onClick={() => read(data.id)}>Read More</button></a>
+                                {location.pathname == '/admin/book-list' && <button className="btn2" onClick={() => handleDelete(data.id, data.title)}>Delete</button>}
+                            </div>
                         </div>
                     </div>
                 ))}

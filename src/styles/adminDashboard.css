@@ -1,7 +1,54 @@
-.adminHome{
-    font-size: 30px;
-    background: linear-gradient(violet,rgba(116, 46, 167, 0.767),rgba(0, 0, 255, 0.445),grey,rgba(255, 255, 0, 0.719),rgba(255, 166, 0, 0.63),red);
-    margin:200px;
-    margin-top: 120px;
-    border-radius: 9px;
+.admindashbord{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+#wel{
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+    background: linear-gradient(violet,rgba(116, 46, 167, 0.767),rgba(0, 0, 255, 0.445),grey,rgba(255, 255, 0, 0.719),rgba(255, 166, 0, 0.63),red);
+    border-radius: 30px;
+    padding: 0 32px;
+    margin: 0px;
+}
+
+.admin1{
+    background-color: rgb(250, 246, 246,0.8);
+    width: 500px;
+    padding: 20px;
+    margin: 50px 400px;
+    border-radius: 10px;
+}
+.admin2{
+    background-color: rgb(250, 246, 246,0.8);
+    width: 500px;
+    padding: 20px;
+    margin: 50px 400px;
+    border-radius: 10px;
+}
+.admin3{
+    background-color: rgb(250, 246, 246,0.7);
+    width: 500px;
+    padding: 20px;
+    margin: 50px 400px;
+    border-radius: 10px;
+}
+.admin4{
+    background-color: rgb(250, 246, 246,0.7);
+    width: 500px;
+    padding: 20px;
+    margin: 50px 400px;
+    border-radius: 10px;
+}
+#hh{
+    margin-top: -45px;
+    color: green;
+    background: #fff;
+    border-radius: 16px;
+}
+
+
+

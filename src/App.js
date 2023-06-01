@@ -7,6 +7,7 @@ import AdminLogin from './components/adminLogin';
 import UserLogin from './components/userLogin';
 import AdminPortal from './components/adminPortal';
 import UserPortal from './components/userPortal';
+import PageNotFound from './components/404';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/user-login' element={<UserLogin/>}/>
         <Route path='/admin/*'element={<AdminPortal/>}/>
         <Route path='/user/*' element={<UserPortal/>}/>
+        <Route   path='*'element={<PageNotFound/>}/>
         </Routes>
         </BrowserRouter>
       

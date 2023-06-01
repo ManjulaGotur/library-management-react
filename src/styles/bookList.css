@@ -1,45 +1,39 @@
-/* .bookList{
-    /* display: flex;
-    background-color: blueviolet;
-    flex-wrap: wrap;
-    height: max-content;
-    width: 100%;
-
-} */ 
-
-/* .books_section .book{
-    border: 2px solid red;
-    
-} */
 
 .bookList{
-    background-color: aqua;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    background-color:aliceblue;  
 }
 .bookList h1{
    background-color: rgb(19, 76, 184);
    color: black;
    text-align: center;
-   margin: 0;
+   margin-top: 16px;
+   padding: 0 16px;
 }
 .Avvikutti{
     display: flex;
     justify-content: center;
     color: rgb(34,33,33);
     border: 2px solid black;
-    padding: 20px 80px;
+    padding: 20px 50px;
     margin:0px 300px;
     background-color: white;
     margin-top: 10px;
+    border-radius: 60px;
+    width: 600px;
 }
 .arrangement{
-    width: 450px;
+    width: 500px;
     height: 200px;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 60px;
+    margin-right: -60px;
     display: flex;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 .images img{
     width: 100px;
@@ -47,14 +41,10 @@
     border-radius: 50%;
     margin: 0px;
 }
-.twinkle{
-    padding: 0px 30px;
-}
+
 .twinkle button{
     border: none;
-    padding: 0px 30px;
     background-color: rgb(89,0,255);
     color: ghostwhite;
     border-radius: 10px;
-    margin-top: 10px;
 }

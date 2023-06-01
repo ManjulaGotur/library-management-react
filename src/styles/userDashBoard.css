@@ -1,0 +1,60 @@
+.userdashbord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#uu{ 
+    font-size: 60px;
+    text-align:initial;
+    margin:0px 80px;
+    color: orange;
+}
+#pp{
+    width: 700px;
+    margin: 0px 80px;
+    padding:25px 20px;
+    font-size: 20px;
+}
+#wel{
+    text-shadow:10px 10px 10px white;
+    font-size: 40px;
+    margin-top: 16px;
+}
+.user1{
+    background-color: rgb(255, 255, 255,0.8);
+    border-radius: 10px;
+    width: 1100px;
+    margin: 50px 50px;
+    margin-left: 70;
+    box-shadow: 1px 1px 10px 1px rgb(182, 163, 163);
+}
+.user2{
+    background-color: rgb(255, 255, 255,0.8);
+    border-radius: 10px;
+    width: 1100px;
+    margin: 50px 50px;
+    box-shadow: 1px 1px 10px 1px rgb(182, 163, 163);
+}
+.user3{
+    background-color: rgb(247, 184, 68,0.8);
+    color: white;
+    height: 400px;
+    margin-top: 50px;
+    border: 1px solid black;
+    margin: 0px 150px;
+}
+.user3 label{
+    width: 130px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+}
+.user4{
+    background-color: rgb(255, 255, 255,0.8);
+    width: 1200px;
+    margin: 50px 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(182, 163, 163);
+}

@@ -1,50 +1,40 @@
-/* .information1{
-    text-align: center;
-    
-} */
-
-
+.userlistcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.information1 h1{
+height: 30px;
+text-align: center;
+}
 .information1{
-    background-color: chartreuse;
+    
+    font-size: 20px;
+    background-color: blue;
+    margin-top:30px ;
+    width: 410px;
+    border-radius: 30px;
+
 
 }
 
-.usedcard{
-    background-color: rgba(230, 109, 230, 0.5);
-}
-
-.usedcard{
-    /* background-color: rgb(44, 194, 30); */
-
-
-
-    margin-top: 10px;
+.usedcard{   
+ margin-top: 10px;
 }   
 .even{
     border: 2px solid black;
-    background-color: rgba(240, 128, 128, 0.719);
-    padding: 30px;
-    margin: 30px 450px;
+    background-color:violet;
+    padding: 30px 100px;
+    margin-bottom: 16px;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+#dlt{
+     border-radius: 10px;
+     padding: 10px;
+     background-color:rgb(0, 255, 64);
+    }
+#dlt:hover{
+    background-color:crimson;
+    border-radius: 10px;
+}

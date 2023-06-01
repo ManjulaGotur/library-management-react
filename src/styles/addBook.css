@@ -1,6 +1,87 @@
-.addbooks_section{
-    background-color: rgba(28, 167, 167, 0.918);
-    margin: 200px;
-    margin-top: 20px;
+.addbooks_section {
+    margin: 400px;
+    margin-top: 10px;
     border: 3px solid black;
+    border-radius: 80px;
+    box-shadow: 2px 2px 10px #333;
+    background-color: #fff;
+}
+
+.addbooks_section h1 {
+    font-size: 50px;
+    color: black;
+    background-color: aqua;
+    border-radius: 20px;
+
+    margin: 40px 60px auto;
+    margin-top: 40px;
+}
+
+.title input {
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 70%;
+    margin-top: 30px;
+    height: 16px;
+}
+
+.authors input {
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 70%;
+    margin-top: 10px;
+    height: 16px;
+}
+
+.categories input {
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 70%;
+    margin-top: 10px;
+    height: 16px;
+}
+
+.pageCount input {
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 70%;
+    margin-top: 10px;
+    height: 16px;
+}
+
+
+.longDescription textarea {
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 70%;
+    margin-top: 10px;
+    height: 16px;
+}
+
+.thumbnailUrl input {
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 70%;
+    margin-top: 10px;
+    height: 16px;
+}
+
+.btn_btn1 {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: white;
+    margin: 0 32px;
+    margin-bottom: 16px;
+}
+
+.btn_btn1:hover {
+    background-color: darkblue;
 }

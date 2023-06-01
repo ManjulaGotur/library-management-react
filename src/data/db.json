@@ -1,105 +1,6 @@
 {
   "books": [
     {
-      "id": 1,
-      "title": "Unlocking Android",
-      "isbn": "1933988673",
-      "pageCount": 416,
-      "publishedDate": {
-        "$date": "2009-04-01T00:00:00.000-0700"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg",
-      "shortDescription": "Unlocking Android: A Developer's Guide provides concise, hands-on instruction for the Android operating system and development tools. This book teaches important architectural concepts in a straightforward writing style and builds on this with practical and useful examples throughout.",
-      "longDescription": "Android is an open source mobile phone platform based on the Linux operating system and developed by the Open Handset Alliance, a consortium of over 30 hardware, software and telecom companies that focus on open standards for mobile devices. Led by search giant, Google, Android is designed to deliver a better and more open and cost effective mobile experience.    Unlocking Android: A Developer's Guide provides concise, hands-on instruction for the Android operating system and development tools. This book teaches important architectural concepts in a straightforward writing style and builds on this with practical and useful examples throughout. Based on his mobile development experience and his deep knowledge of the arcane Android technical documentation, the author conveys the know-how you need to develop practical applications that build upon or replace any of Androids features, however small.    Unlocking Android: A Developer's Guide prepares the reader to embrace the platform in easy-to-understand language and builds on this foundation with re-usable Java code examples. It is ideal for corporate and hobbyists alike who have an interest, or a mandate, to deliver software functionality for cell phones.    WHAT'S INSIDE:        * Android's place in the market      * Using the Eclipse environment for Android development      * The Intents - how and why they are used      * Application classes:            o Activity            o Service            o IntentReceiver       * User interface design      * Using the ContentProvider to manage data      * Persisting data with the SQLite database      * Networking examples      * Telephony applications      * Notification methods      * OpenGL, animation & multimedia      * Sample Applications  ",
-      "status": "PUBLISH",
-      "authors": [
-        "W. Frank Ableson",
-        "Charlie Collins",
-        "Robi Sen"
-      ],
-      "categories": [
-        "Open Source",
-        "Mobile"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Android in Action, Second Edition",
-      "isbn": "1935182722",
-      "pageCount": 592,
-      "publishedDate": {
-        "$date": "2011-01-14T00:00:00.000-0800"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson2.jpg",
-      "shortDescription": "Android in Action, Second Edition is a comprehensive tutorial for Android developers. Taking you far beyond \"Hello Android,\" this fast-paced book puts you in the driver's seat as you learn important architectural concepts and implementation strategies. You'll master the SDK, build WebKit apps using HTML 5, and even learn to extend or replace Android's built-in features by building useful and intriguing examples. ",
-      "longDescription": "When it comes to mobile apps, Android can do almost anything   and with this book, so can you! Android runs on mobile devices ranging from smart phones to tablets to countless special-purpose gadgets. It's the broadest mobile platform available.    Android in Action, Second Edition is a comprehensive tutorial for Android developers. Taking you far beyond \"Hello Android,\" this fast-paced book puts you in the driver's seat as you learn important architectural concepts and implementation strategies. You'll master the SDK, build WebKit apps using HTML 5, and even learn to extend or replace Android's built-in features by building useful and intriguing examples. ",
-      "status": "PUBLISH",
-      "authors": [
-        "W. Frank Ableson",
-        "Robi Sen"
-      ],
-      "categories": [
-        "Java"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Specification by Example",
-      "isbn": "1617290084",
-      "pageCount": 0,
-      "publishedDate": {
-        "$date": "2011-06-03T00:00:00.000-0700"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/adzic.jpg",
-      "status": "PUBLISH",
-      "authors": [
-        "Gojko Adzic"
-      ],
-      "categories": [
-        "Software Engineering"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Flex 3 in Action",
-      "isbn": "1933988746",
-      "pageCount": 576,
-      "publishedDate": {
-        "$date": "2009-02-02T00:00:00.000-0800"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed.jpg",
-      "longDescription": "New web applications require engaging user-friendly interfaces   and the cooler, the better. With Flex 3, web developers at any skill level can create high-quality, effective, and interactive Rich Internet Applications (RIAs) quickly and easily. Flex removes the complexity barrier from RIA development by offering sophisticated tools and a straightforward programming language so you can focus on what you want to do instead of how to do it. And now that the major components of Flex are free and open-source, the cost barrier is gone, as well!    Flex 3 in Action is an easy-to-follow, hands-on Flex tutorial. Chock-full of examples, this book goes beyond feature coverage and helps you put Flex to work in real day-to-day tasks. You'll quickly master the Flex API and learn to apply the techniques that make your Flex applications stand out from the crowd.    Interesting themes, styles, and skins  It's in there.  Working with databases  You got it.  Interactive forms and validation  You bet.  Charting techniques to help you visualize data  Bam!  The expert authors of Flex 3 in Action have one goal   to help you get down to business with Flex 3. Fast.    Many Flex books are overwhelming to new users   focusing on the complexities of the language and the super-specialized subjects in the Flex eco-system; Flex 3 in Action filters out the noise and dives into the core topics you need every day. Using numerous easy-to-understand examples, Flex 3 in Action gives you a strong foundation that you can build on as the complexity of your projects increases.",
-      "status": "PUBLISH",
-      "authors": [
-        "Tariq Ahmed with Jon Hirschi",
-        "Faisal Abid"
-      ],
-      "categories": [
-        "Internet"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Flex 4 in Action",
-      "isbn": "1935182420",
-      "pageCount": 600,
-      "publishedDate": {
-        "$date": "2010-11-15T00:00:00.000-0800"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed2.jpg",
-      "longDescription": "Using Flex, you can create high-quality, effective, and interactive Rich Internet Applications (RIAs) quickly and easily. Flex removes the complexity barrier from RIA development by offering sophisticated tools and a straightforward programming language so you can focus on what you want to do instead of how to do it. And the new features added in Flex 4 give you an even wider range of options!    Flex 4 in Action is an easy-to-follow, hands-on Flex tutorial that goes beyond feature coverage and helps you put Flex to work in real day-to-day tasks. You'll quickly master the Flex API and learn to apply the techniques that make your Flex applications stand out from the crowd.    The expert authors of Flex 4 in Action have one goal-to help you get down to business with Flex. Fast. Flex 4 in Action filters out the noise and dives into the core topics you need every day. Using numerous easy-to-understand examples, Flex 4 in Action gives you a strong foundation that you can build on as the complexity of your projects increases.    Interesting themes, styles, and skins  It's in there.  Working with databases  You got it.  Interactive forms and validation  You bet.  Charting techniques to help you visualize data  Bam!  And you'll get full coverage of these great Flex 4 upgrades:  Next generation Spark components-New buttons, form inputs, navigation controls and other visual components replace the Flex 3 \"Halo\" versions. Spark components are easier to customize, which makes skinning and theme design much faster  A new \"network monitor\" allows you to see the data communications between a Flex application and a backend server, which helps when trying to debug applications that are communicating to another system/service  Numerous productivity boosting features that speed up the process of creating applications  A faster compiler to take your human-written source code and convert it into a machine-readable format  Built-in support for unit testing allows you to improve the quality of your software, and reduce the time spent in testing",
-      "status": "PUBLISH",
-      "authors": [
-        "Tariq Ahmed",
-        "Dan Orlando",
-        "John C. Bland II",
-        "Joel Hooks"
-      ],
-      "categories": [
-        "Internet"
-      ]
-    },
-    {
       "id": 6,
       "title": "Collective Intelligence in Action",
       "isbn": "1933988312",
@@ -255,24 +156,6 @@
       ],
       "categories": [
         "Miscellaneous"
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Team Foundation Server 2008 in Action",
-      "isbn": "1933988592",
-      "pageCount": 344,
-      "publishedDate": {
-        "$date": "2008-12-01T00:00:00.000-0800"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/azher.jpg",
-      "longDescription": "In complex software projects, managing the development process can be as critical to success as writing the code itself. A project may involve dozens of developers, managers, architects, testers, and customers, hundreds of builds, and thousands of opportunities to get off-track. To keep tabs on the people, tasks, and components of a medium- to large-scale project, most teams use a development system that allows for easy monitoring, follow-up, and accountability.    Microsoft Team Foundation Server 2008 (TFS), the server component of Microsoft's Visual Studio Team System (VSTS), provides a powerful collaborative platform for software-development teams. The product offers an integrated toolset for tracking work items, creating test cases, managing source code, generating builds, constructing database schemas, and so on. Because in software development one size does not fit all, TFS provides process customization, project management, and reporting capabilities to build solutions around your requirements.    Team Foundation Server 2008 in Action is a hands-on guide to Team Foundation Server 2008. Written for developers with a good handle on TFS basics, this book shows you how to solve real-life problems. It's not a repetition of Microsoft's product documentation. Team Foundation Server 2008 in Action is a practitioner's handbook for how to work with TFS under common constraints. This book walks you through real-life software engineering problems based on hundreds of hours of TFS experience.    You'll benefit from expert author Jamil Azher's extensive interactions with members of Microsoft's TFS team and MVPs, survey feedback from the author's blog, and interviews with organizations and user groups using TFS. Instead of just offering a high-level overview, the book provides detailed solutions for solving common   and not-so-common   problems using TFS. It discusses the strengths as well as weaknesses of TFS, and suggests appropriate problem resolution steps, workarounds, or custom solutions.",
-      "status": "PUBLISH",
-      "authors": [
-        "Jamil Azher"
-      ],
-      "categories": [
-        "Microsoft .NET"
       ]
     },
     {
@@ -7086,44 +6969,71 @@
       "categories": []
     },
     {
-      "title": "mrg",
-      "authors": "avi",
-      "categories": "ejkh",
-      "pageCount": "7",
-      "shortdescription": "hi",
-      "longDescription": "hello",
-      "thumbnailUrl": "hlo/hi",
-      "id": 797
+      "title": "Wings of fire",
+      "authors": "APJ Abdul  Kalam",
+      "categories": "Biography",
+      "pageCount": "2",
+      "shortdescription": "A. P. J. Abdul Kalam. It was written by him and Arun Tiwari. In the autobiography, Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs.",
+      "longDescription": "Wings of Fire is the autobiography of the former President of India, Dr. Abdul Kalam. Kalam went from being a humble boy in South India to developing India's nuclear weapons and becoming President. Through this autobiography, the reader gains a glimpse into pre-partition India.",
+      "thumbnailUrl": "https://rukminim1.flixcart.com/image/416/416/juk4gi80/book/4/6/6/wings-of-fire-original-imaffmk4gx5pxqvf.jpeg?q=70",
+      "id": 798
+    },
+    {
+      "title": "Appa andre Akasha",
+      "authors": "A.R.Manikanth",
+      "categories": "Internet",
+      "pageCount": "162",
+      "shortdescription": "  'ಅಪ್ಪ ಅಂದ್ರೆ ಆಕಾಶ' ಕೃತಿಯು ಎ.ಆರ್.ಮಣಿಕಾಂತ್ ರವರಾಗಿದ್ದು, ಈ ಕೃತಿಯಲ್ಲಿ ಅವಕಾಶ ವಂಚಿತರ, ಅಸಹಾಯಕ ಕಂಗಲಾರ, ವಿಕಲಚೇತನರ ಎದೆಗುಂದದ ನಿರಂತರ ಪರಿಶ್ರಮ ಹಾಗು ಅಕ್ಷತಾ ಆಶಾಭಾವನೆಯ ಪ್ರೇರಣೆಯಿಂದ ಅವರು ಮುಟ್ಟಿದ ಮೇಲ ನೆಲೆ, ರೂಢಿಸಿಕೊಂಡ ವಿನಯಶಾಲಿನಂತೆ, ಎಸಗಿದ ಲೋಕೋಪಕಾರ ಮತ್ತಿತರ ಸಕಾರತ್ಮಕ ವಿವರಗಳು ಈ ಕೃತಿಯಲ್ಲಿ ಪರಿಣಾಮಕಾರಿಯಾಗಿ ರೇಖಿತವಾಗಿವೆ.ಈ ಪುಸ್ತಕ ತತ್ಕ್ಷಣಿಕವಾಗಿ ಬೀರಿದ ಪ್ರಭಾವದ ಅರಿವಿನಲ್ಲಿ, ನಮ್ಮ ಬದುಕಿನ ಕೆಲವೊಂದು ಪ್ರಸಂಗಗಳು ನೆನಪಾಗಿ, ನಮ್ಮ ಒಳಗಿನಲ್ಲಿ ಭಾವಾಲೋಚನೆಯ ಕಿಡಿಯನ್ನು ಹೊತ್ತಿಸಿ ಚಿಂತನಕ್ಕೆ ಹಚ್ಚಿದರೆ ಆಶ್ಚರ್ಯ ಪಡಬೇಕಿಲ್ಲ. ಕಣ್ಣಿಗೆ ಕಟ್ಟುವ ಚಿತ್ರಣ, ಸ್ಪುಟ ಹಾಗೂ ಪಾರದರ್ಶಕ ನಿರೂಪಣೆ, ತಾಯಿಯ ಕೈತುತ್ತಿನ ನೆನೆಪಿನಂತೆ ಹಳವಂಡವಾಗಿ ಕಾಡುವ ಕೆಲವು ಅಪರೂಪದ ಘಟನೆಗಳು ಈ ಪುಸ್ತಕದ ಬಗೆಗೆ ಮೆಚ್ಚುಗೆಯನ್ನು ಇಮ್ಮಡಿಸುತ್ತವೆ.",
+      "longDescription": "ಪತ್ರಕರ್ತ, ಲೇಖಕ ಎ.ಆರ್.ಮಣಿಕಾಂತ್ ಅವರ ‘ಅಪ್ಪ ಅಂದ್ರೆ ಆಕಾಶ’ ಲೇಖನಗಳ ಸಂಕಲನವಾಗಿದೆ. ಈ ಕೃತಿಗೆ ಲೇಖಕ ಎಂ.ಕೃಷ್ನೇಗೌಡ ಅವರು ಮುನ್ನುಡಿ ಬರೆದಿದ್ದಾರೆ. ಕೃತಿಯಲ್ಲಿ ಲೇಖಕನ ಮಾತು, ‘ಹೌದಲ್ವಾ..ಮನೆಮನೆಯಲ್ಲೂ ಮಕ್ಕಳಿಂದ ತಾತ್ಸಾರಕ್ಕೆ ಒಳಗಾಗುವ ಜೀವದ ಹೆಸರು- ಅಪ್ಪ!. ಸ್ವಾರಸ್ಯವೇನು ಗೊತ್ತೆ? ಮಕ್ಕಳು ಜನಿಸಿದ ಸಂದರ್ಭದಲ್ಲಿ ವಿಪರೀತ ಮಾಡುವ ವ್ಯಕ್ತಿ- ಅಪ್ಪ, ಮಕ್ಕಳು ಹುಷಾರು ತಪ್ಪಿದಾಗ ಕಂಗಾಲಾಗುವ, ಚೆನ್ನಾಗಿ ಓದಿಸಿ ಸಾರ್ ಎನ್ನುತ್ತಾ ಶಿಕ್ಷಕರಿಗೆ ಕೈಮುಗಿಯುವ, ನನ್ನ ಮಕ್ಕಳಿಗೆ ಒಳ್ಳೆಯದು ಮಾಡಪ್ಪಾ ಎಂದು ದೇವರನ್ನು ಪ್ರಾರ್ಥಿಸುವ, ಮಕ್ಕಳ ಭವಿಷ್ಯ ಕುರಿತು ನೂರೆಂಟು ಕನಸು ಕಾಣುವ ವ್ಯಕ್ತಿ-ಅಪ್ಪ ವಿಪನ್ಯಾಸವೇನು ಗೊತ್ತೆ? ಮಕ್ಕಳ ಒಳಿತಿಗಾಗಿ ಜೀವ ತೇಯುವ ಅಪ್ಪಂದಿರನ್ನು ಬಹುಪಾಲು ಮಕ್ಕಳು ತಾತ್ಕಾರದಿಂದ ನೋಡುತ್ತಿದ್ದಾರೆ. ಅಮ್ಮ ಜೀವ ಕೊಡುತ್ತಾಳೆ, ಅಪ್ಪ ಬಾಳು ಕೊಡುತ್ತಾನೆ ಎಂಬ ಮಾತಿದೆ. ಬಾಳು ಕೊಡುವ ಅಪ್ಪನನ್ನು ಮಕ್ಕಳು ಕೆಲವೊಮ್ಮೆ ಗೋಳಾಡಿಸುವುದೇಕೆ ಎಂಬ ಪ್ರಶ್ನೆಗೆ ಬಹುಶಃ ಯಾರಲ್ಲೂ ನನ್ನ ಉತ್ತರವಿಲ್ಲ. ಆದರೆ ಅಪ್ಪಂದಿರ ವಿಷಯವಾಗಿ ಎಲ್ಲ ಮಕ್ಕಳಿಗೂ ಹೀಗೊಂದು ನಂಬಿಕೆಯಿದೆ. ಅವನಿಗೆ ಅಪ್ಪನೇ ಸಾಟಿ. ಅವನಿಗೆ ಪಾಯವಿಲ್ಲ,ಸಾವಿರ ಮಂದಿ ವಿರೋಧಿಗಳ ಮುಂದೆಯೂ ಅಪ್ಪ ಗುಡುಗಬಲ್ಲ. ಸಿಡಿಯಬಲ್ಲ. ಪ್ರವಾಹಕ್ಕೆ ಎದುರಾಗಿ ಈಜಬಲ್ಲ, ನಕ್ಷತ್ರವನ್ನೇ ತಂದುಕೊಡುವ ಮಾತಾಡಬಲ್ಲ, ಕೆಲವು ಸಂದರ್ಭಗಳಲ್ಲಿ ಅಪ್ಪ ಅಮ್ಮನೂ ಆಗಿಬಿಡಬಲ್ಲ. ಎಲ್ಲರೂ ಬಲ್ಲವೆ ಆಕಾಶದಲ್ಲಿ-ಗುಡುಗು, ಮಿಂಚು, ಸಿಡಿಲು, ಮಳೆ, ತಾರೆ, ಚಂದ್ರ, ನಕ್ಷತ್ರ ಸೂರ... ಈ ಎಲ್ಲವು ಈ ಇದೆ. ಆಕಾಶದಲ್ಲಿರುವ ಈ ಎಲ್ಲ ಗುಣವಿಶೇಷಗಳೂ ಅಪ್ಪನ ವ್ಯಕ್ತಿತ್ವದಲ್ಲಿವೆ. ಆ ಕಾರಣದಿಂದಲೇ ಅಪ್ಪ ಅಂದ್ರೆ ಆಕಾಶ ! (ಅಥವಾ, ಅಪ್ಪನೆಂಬ ಆಸಾಮಿ, ಆಕಾಶಕ್ಕಿಂತ ಮಿಗಿಲಾದವನು.) ಈ ಸರಳ - ಸತ್ಯವನ್ನು ಎಲ್ಲ ಮಕ್ಕಳೂ ಅರ್ಥ ಮಾಡಿಕೊಳ್ಳಲಿ. ಅಮ್ಮನ ವಿಷಯದಲ್ಲಿ ತೋರುವ ಕಾಳಜಿಯನ್ನೇ ಅಪ್ಪಂದಿರ ವಿಷಯದಲ್ಲೂ ತೋರಲಿ ಎಂಬ ಹೃದ್ಯ ಪ್ರಾರ್ಥನೆ ನನ್ನದು; ಎಂದಿದ್ದಾರೆ. ಒಳಪುಟಗಳಲ್ಲಿ 30 ಲೇಖನಗಳಿದ್ದು, ಪ್ರಾರ್ಥನೆ, ಎಮ್ಮೆ ಕಾಯುತ್ತಿದ್ದ ಹುಡುಗ ಎಂ.ಎ ಮಾಡಿದವರನ್ನೂ ಮೀರಿಸಿದ, ಅಮ್ಮ ಮತ್ತ ಒಂದು ರುಪಾಯಿ, ಮೂರು ಮಕ್ಕಳನ್ನು ಕಳೆದುಕೊಂಡವರು ಮೂವತ್ತು ಮಕ್ಕಳ ಪೋಷಕರಾದರು, ಒಂದು ಮಾವಿನ ಮರ, ಒಬ್ಬ ಹುಡುಗ ಮತ್ತು ನಾವು-ನೀವು.., ಅಪ್ಪನಿಂದ ಅನಿಷ್ಟ ಅನ್ನಿಸಿಕೊಮಡವರು ಮಿಸ್ ಇಂಡಿಯಾ ಆದಳು, ವೀರಮಣಿ ಕಥಾ, ಅಪ್ಪ ಅಂದ್ರೆ ಆಕಾಶ, ಅಧಿಕಾರದ ಮದದಲ್ಲಿ ತೇಲಬೇಡ, ಅಪ್ಪಾ,ಯು ಆರ್ ಗ್ರೇಟ್..ಹೀಗೆ ಅನೇಕ ಶೀರ್ಷಿಕೆಗಳನ್ನು ಹೊಂದಿದೆ. 2012ರಲ್ಲಿ ಮೊದಲ ಮುದ್ರಣ ಕಂಡ ಈ ಕೃತಿ, 2014ರಲ್ಲಿ ಇಪ್ಪತ್ತೈದನೆಯ ಮುದ್ರಣ ಕಂಡಿದೆ.",
+      "thumbnailUrl": "data:image/jpeg;base64,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",
+      "id": 799
+    },
+    {
+      "title": "wings of fire",
+      "authors": "Apj abdul kalam",
+      "categories": "English",
+      "pageCount": "200",
+      "shortdescription": "Wings of Fire Summary by Abdul Kalam Introduction. Wings of Fire is the autobiography of former Indian president and eminent scientist Late APJ Kalam. The... Book Summary. The first part is all about the life of young Kalam. There is a mix of his interactions with his family,... Conclusion. A common ...\n",
+      "longDescription": "Wings of Fire Summary by Abdul Kalam Introduction. Wings of Fire is the autobiography of former Indian president and eminent scientist Late APJ Kalam. The... Book Summary. The first part is all about the life of young Kalam. There is a mix of his interactions with his family,... Conclusion. A common ...\nWings of Fire Summary by Abdul Kalam Introduction. Wings of Fire is the autobiography of former Indian president and eminent scientist Late APJ Kalam. The... Book Summary. The first part is all about the life of young Kalam. There is a mix of his interactions with his family,... Conclusion. A common ...\nWings of Fire Summary by Abdul Kalam Introduction. Wings of Fire is the autobiography of former Indian president and eminent scientist Late APJ Kalam. The... Book Summary. The first part is all about the life of young Kalam. There is a mix of his interactions with his family,... Conclusion. A common ...\nWings of Fire Summary by Abdul Kalam Introduction. Wings of Fire is the autobiography of former Indian president and eminent scientist Late APJ Kalam. The... Book Summary. The first part is all about the life of young Kalam. There is a mix of his interactions with his family,... Conclusion. A common ...\nWings of Fire Summary by Abdul Kalam Introduction. Wings of Fire is the autobiography of former Indian president and eminent scientist Late APJ Kalam. The... Book Summary. The first part is all about the life of young Kalam. There is a mix of his interactions with his family,... Conclusion. A common ...\n",
+      "thumbnailUrl": "https://tse1.mm.bing.net/th?id=OIP.7lvmBjJ0nuBgiIlejKWBcAHaEK&pid=Api&rs=1&c=1&qlt=95&w=163&h=91",
+      "id": 800
     }
   ],
   "users": [
-    {
-      "name": "mrg",
-      "age": "21",
-      "email": "mrg@gmail.com",
-      "phoneNumber":7892898648 ,
-      "id": 1
-    },
-    {
-      "name": "Avvikutti",
-      "age": "23",
-      "email": "Santosh@gmail.com",
-      "phoneNumber": 8088262675,
-      "id": 2
-    },
-    {
-      "name": "gsh",
-      "age": "24",
-      "email": "mrg23@gmail.com",
-      "phoneNumber": 8618884824,
-      "id": 3
-    },
     {
       "name": "Anusha",
       "age": "22",
       "email": "anusha@gmail.com",
       "phoneNumber": 8096129762,
+      "id": 3
+    },
+    {
+      "name": "Anju",
+      "age": "24",
+      "email": "krg@gmail.com",
+      "phoneNumber": 8084567889,
       "id": 4
+    },
+    {
+      "name": "Manju",
+      "age": "21",
+      "email": "manju@gmail.com",
+      "phoneNumber": 7892898648,
+      "id": 6
+    },
+    {
+      "name": "Mayuri",
+      "age": "22",
+      "email": "mayuri@gmail.com",
+      "phoneNumber": 8096129762,
+      "id": 8
+    },
+    {
+      "name": "gsh",
+      "age": "22",
+      "email": "gsh@gmail.com",
+      "phoneNumber": 8618884824,
+      "id": 9
     }
   ]
 }

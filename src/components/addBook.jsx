@@ -37,6 +37,7 @@ const AddBook = () => {
             <h1>Add Book</h1>
             <div className="form">
                 <form action="" onSubmit={handleSubmit}>
+                    
             <div className="title">
                 <input type="text" required placeholder="title of the book"  value={title} onChange={(e) => setTitle(e.target.value)} />
             </div>
@@ -52,14 +53,16 @@ const AddBook = () => {
             <div className="pageCount">
             <input type="number" required placeholder="pageCount of the book" value={pageCount} onChange={(e) => setPageCount(e.target.value)}/>
             </div>
-           
+{/*            
             <div className="shortdescription">
-            <textarea type="text" required placeholder="shortdescription of the book" value={shortdescription} onChange={(e) => setShortDescription(e.target.value)} cols="30" rows="10"/>
+            {/* <textarea type="text" required placeholder="shortdescription of the book" value={shortdescription} onChange={(e) => setShortDescription(e.target.value)} cols="10" rows="10"/> */}
+            {/* <textarea type="text" required placeholder="shortdescription of the book" value={shortdescription} onChange={(e) => setShortDescription(e.target.value)} />
             
             </div>
-            
+             */}
             <div className="longDescription">
-            <textarea type="text" required placeholder="longdescription of the book"   value={longDescription} onChange={(e) => setLongescription(e.target.value)} cols="30" rows="10" />
+            {/* <textarea type="text" required placeholder="longdescription of the book"   value={longDescription} onChange={(e) => setLongescription(e.target.value)} cols="10" rows="5" /> */}
+            <textarea type="text" required placeholder="longdescription of the book"   value={longDescription} onChange={(e) => setLongescription(e.target.value)}  />
             
             </div>
            

@@ -1,5 +1,6 @@
 import { useState,useEffect } from "react";
 import { useParams } from "react-router-dom";
+import '../styles/readBook.css'
 
 const ReadBook = () => {
   // let read = props.data
@@ -12,14 +13,14 @@ const ReadBook = () => {
       setBooks(data)
     }
     fetchData()
-  }, [books])
+  },[books])
 
 
   return (
     <div className="readBook_contain">
       <div className="readBook">
         {/* <h1>Read Book </h1> */}
-        <h2 className="Santu">{books.title}</h2>
+        <h2 className="books">{books.title}</h2>
 
         <div className="division">
           <p>{books.shortDescription}</p>
